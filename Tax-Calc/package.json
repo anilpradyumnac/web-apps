@@ -1,0 +1,19 @@
+
+
+{
+  "name": "tax-calc",
+  "version": "0.0.1",
+  "description": "App that calculates tax value and changes dynamically using frpjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "FRP"
+  ],
+  "author": "Anil Pradyumna Chakicherla",
+  "license": "ISC"
+}
+
