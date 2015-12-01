@@ -1,5 +1,3 @@
-
-
 {
   "name": "tax-calc",
   "version": "0.0.1",
@@ -14,6 +12,8 @@
     "FRP"
   ],
   "author": "Anil Pradyumna Chakicherla",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "frpjs": "^0.1.0"
+  }
 }
-
