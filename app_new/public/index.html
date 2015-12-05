@@ -1,0 +1,32 @@
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>Tax Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body id="main_body" onload="">
+	<div class="toolbar bg-red-500 color-white">
+		
+		<span class="toolbar-label">App_New</span>
+		
+	</div>
+	<form action="index_submit" method="get" accept-charset="utf-8">
+		
+		<ul class="list">
+			<li>Principle Amount</li><label for="Principle Amount"></label><input class="text-input" type="text" name="principle" value="" id="principle">
+			
+			<li>Tax Value</li><label for="Tax Value"></label><input class="text-input" type="text" name="taxValue" value="" id="taxvalue">
+			
+			<li>Total</li><label for="subTotal"></label><input class="text-input" type="text" name="subTotal" value="" id="subTotal">
+			
+		</ul>	
+		
+		<p><button class="fab bg-red-500 color-white"><i class="icon-create"></i></button></p>
+	</form>
+	<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+	
+</body>
+</html>
